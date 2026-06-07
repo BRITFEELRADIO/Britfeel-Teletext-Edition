@@ -32,9 +32,9 @@ alerts you when SSM goes live
 ## Features
 
 - 🔴 **Live post streaming** — polls the thread every 3 seconds, renders new posts instantly
-- 🐟 **SSM live indicator** — detects when someone posts a SSM stream link and flashes a banner if he's live
 - 🎲 **Roll detection** — highlights dubs, trips, quads and quints with coloured borders and banners
 - 📺 **YouTube titles** — resolves YouTube links inline so you can see what people are posting
+- 🐟 **SSM live indicator** — detects when someone posts a SSM stream link and flashes a banner if he's live
 - 💬 **Quote previews** — shows a snippet of the post being replied to beneath each reply
 - 👤 **User tracker** — press `U` to track any name or tripcode across the thread
 - ☢️ **DEFCON indicator** — scans `/pol/` every 90 seconds for signs of a happening
