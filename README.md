@@ -38,7 +38,7 @@ tracks dubs/trips/quads/quints · monitors `/pol/` for signs of a happening
 
 ---
 
-## Install if you're a hardman
+## Install
 
 ```bash
 pip install requests rich
