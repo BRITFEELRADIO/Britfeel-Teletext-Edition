@@ -22,7 +22,7 @@ with a live `/pol/` DEFCON threat indicator
 ### What it does
 
 Automatically finds the latest britfeel thread · streams new posts as they arrive  
-tracks dubs/trips/quads/quints · monitors `/pol/` for signs of a happening  
+tracks dubs/trips/quads/quints · monitors `/pol/` for signs of a happening ·  
 alerts you when SSM goes live
 
 </div>
