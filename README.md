@@ -6,6 +6,8 @@
 
 **A real-time terminal viewer for the britfeel thread on /r9k/**  
 with a live `/pol/` DEFCON threat indicator
+<br>
+🇬🇧 NOW IN WEBSITE FORM www.britfeel.xyz 🇬🇧
 
 <br>
 
