@@ -1,7 +1,8 @@
 <img width="1138" height="594" alt="teletex" src="https://github.com/user-attachments/assets/b328fc6b-91ce-47b3-83a0-d348ff5600e1" />
+
 <div align="center">
 
-  # britfeel-teletext edition.
+# britfeel-teletext edition.
 
 **A real-time terminal viewer for the britfeel thread on /r9k/**  
 with a live `/pol/` DEFCON threat indicator
@@ -21,7 +22,8 @@ with a live `/pol/` DEFCON threat indicator
 ### What it does
 
 Automatically finds the latest britfeel thread · streams new posts as they arrive  
-tracks dubs/trips/quads/quints · monitors `/pol/` for signs of a happening
+tracks dubs/trips/quads/quints · monitors `/pol/` for signs of a happening  
+alerts you when SSM goes live
 
 </div>
 
@@ -30,6 +32,7 @@ tracks dubs/trips/quads/quints · monitors `/pol/` for signs of a happening
 ## Features
 
 - 🔴 **Live post streaming** — polls the thread every 3 seconds, renders new posts instantly
+- 🐟 **SSM live indicator** — detects when someone posts a SSM stream link and flashes a banner if he's live
 - 🎲 **Roll detection** — highlights dubs, trips, quads and quints with coloured borders and banners
 - 📺 **YouTube titles** — resolves YouTube links inline so you can see what people are posting
 - 💬 **Quote previews** — shows a snippet of the post being replied to beneath each reply
@@ -81,6 +84,14 @@ python teletext.py
 | `d` `t` `q` `Q` | Dubs · Trips · Quads · Quints rolled so far |
 | `DEFCON` | /pol/ threat level (see below) |
 | `U:` | Tracked user — post count and active hours (last 2 days) |
+
+---
+
+## SSM live indicator
+
+When a post links to a SeasideMARKs YouTube stream and he's currently live, a 🐟 **SSM IS LIVE** banner appears directly beneath that post. No API key required — it scrapes the watch page directly. Each link is only checked once.
+
+The detector handles his habit of changing his channel — it matches on `seasidemark`, `ssm`, `seaside mark` and the stable channel handle `@seasideMARK17`.
 
 ---
 
