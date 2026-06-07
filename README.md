@@ -38,14 +38,14 @@ tracks dubs/trips/quads/quints · monitors `/pol/` for signs of a happening
 
 ---
 
-## Install
+## Install if you're a hardman
 
 ```bash
 pip install requests rich
 python teletext.py
 ```
 
-Or build a standalone exe with PyInstaller: or download the one provided.
+Or build a standalone exe with PyInstaller:
 
 ```bash
 pip install pyinstaller
