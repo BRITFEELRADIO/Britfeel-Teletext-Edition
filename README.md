@@ -45,7 +45,7 @@ pip install requests rich
 python teletext.py
 ```
 
-Or build a standalone exe with PyInstaller:
+Or build a standalone exe with PyInstaller: or download the one provided.
 
 ```bash
 pip install pyinstaller
