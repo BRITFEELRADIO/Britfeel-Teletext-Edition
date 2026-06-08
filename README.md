@@ -67,7 +67,7 @@ Press **U** (desktop) or tap the **U** button (mobile) to track any poster by na
 
 ## Draw Pad
 
-A shared whiteboard everyone on the site draws on in real time.
+A shared whiteboard anyone on the site can draw on in real time.
 
 - tap **✏️** to open the pad
 - classic **MS Paint colour palette** — 28 colours, 2 rows
