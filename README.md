@@ -72,7 +72,7 @@ A shared whiteboard everyone on the site draws on in real time.
 - tap **✏️** to open the pad
 - classic **MS Paint colour palette** — 28 colours, 2 rows
 - adjustable brush size
-- **🧽 eraser** — chunky and satisfying
+- **🧽 eraser**
 - tap outside or press **✕** to close
 - clears for everyone when someone hits clear
 - resets on server restart
