@@ -39,6 +39,7 @@ No install. No account. Just the thread.
 - 🐟 **SSM live alert** — a blinking banner appears when someone posts a SeasideMARK17 stream link and he's live
 - 🆕 **Auto thread switching** — detects a new thread within 60 seconds and streams straight into it with a divider
 - 🍀 **Multi-board** — switch between britfeel `/r9k/`, brit/pol/ `/pol/`, and /brit/ `/int/`
+- 👑 Crown — highlights the most replied-to post in the thread (6+ replies to qualify)
 
 ---
 
@@ -74,9 +75,6 @@ A shared whiteboard everyone on the site draws on in real time.
 - adjustable brush size
 - **🧽 eraser**
 - tap outside or press **✕** to close
-- clears for everyone when someone hits clear
-- resets on server restart
-
 ---
 
 ## Status Bar
