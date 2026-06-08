@@ -131,31 +131,6 @@ detonation · mushroom cloud · martial law · false flag
 
 ---
 
-## Running it yourself
-
-```bash
-pip install fastapi uvicorn requests
-python server.py
-```
-
-Or build the terminal version:
-
-```bash
-pip install requests rich
-python teletext.py
-```
-
----
-
-## Requirements
-
-- Python 3.10+
-- `fastapi` · `uvicorn` · `requests` (web)
-- `requests` · `rich` (terminal)
-- A terminal with Unicode and colour support (terminal version)
-
----
-
 <div align="center">
 
 *lad · lad · lad · lad · lad*
