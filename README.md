@@ -4,10 +4,9 @@
 
 # britfeel-teletext edition.
 
-**A real-time terminal viewer for the britfeel thread on /r9k/**  
-with a live `/pol/` DEFCON threat indicator
-<br>
-🇬🇧 NOW ON A WEBSITE www.britfeel.xyz 🇬🇧
+**A real-time terminal viewer for britfeel — now on the web**
+
+🇬🇧 **[www.britfeel.xyz](https://www.britfeel.xyz)** 🇬🇧
 
 <br>
 
@@ -23,77 +22,74 @@ with a live `/pol/` DEFCON threat indicator
 
 ### What it does
 
-Automatically finds the latest britfeel thread · streams new posts as they arrive  
-tracks dubs/trips/quads/quints · monitors `/pol/` for signs of a happening ·  
-alerts you when SSM goes live 🐟 
+Open **[britfeel.xyz](https://www.britfeel.xyz)** in any browser — desktop or mobile.  
+Posts stream in live, rolls get banners, the DEFCON ticker watches /pol/ so you don't have to.  
+No install. No account. Just the thread.
 
 </div>
 
 ---
 
-## Features
+## The Feed
 
-- 🔴 **Live post streaming** — polls the thread every 3 seconds, renders new posts instantly
-- 🎲 **Roll detection** — highlights dubs, trips, quads and quints with coloured borders and banners
-- 📺 **YouTube titles** — resolves YouTube links inline so you can see what people are posting
-- 🐟 **SSM live indicator** — detects when someone posts a SSM stream link and flashes a banner if he's live
-- 💬 **Quote previews** — shows a snippet of the post being replied to beneath each reply
-- 👤 **User tracker** — press `U` to track any name or tripcode across the thread
-- ☢️ **DEFCON indicator** — scans `/pol/` every 90 seconds for signs of a happening
-
----
-
-## Install
-
-```bash
-pip install requests rich
-python teletext.py
-```
-
-Or build a standalone exe with PyInstaller:
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile teletext.py
-```
-
-The exe will be in `dist/`.
+- 🔴 **Live streaming** — new posts appear instantly, no refresh needed
+- 🎲 **Roll detection** — dubs, trips, quads and quints get coloured borders and banners
+- 💬 **Quote previews** — see a snippet of the post being replied to, inline beneath each reply
+- 📺 **YouTube titles** — links resolve to the video title so you know what people are posting
+- 🐟 **SSM live alert** — a blinking banner appears when someone posts a SeasideMARK17 stream link and he's live
+- 🆕 **Auto thread switching** — detects a new thread within 60 seconds and streams straight into it with a divider
+- 🍀 **Multi-board** — switch between britfeel `/r9k/`, brit/pol/ `/pol/`, and /brit/ `/int/` — each with their own counters
 
 ---
 
-## Usage
+## Ghost Posts
 
-Just run it — it finds the latest britfeel thread automatically.
+Anyone can leave a ghost post — a cryptic blood-red message that appears in the feed alongside real posts.
 
-```
-python teletext.py
-```
-
-| Key | Action |
-|-----|--------|
-| `U` | Track a user by name or tripcode |
-| `Enter` | Confirm username |
-| `Backspace` | Edit username |
-| `Enter` (empty) | Clear tracked user |
+- 👻 tap the ghost button to open the word picker
+- choose up to **4 words** from a curated list of 71
+- your message appears in the feed in chronological order, styled in dripping red
+- **one post per 10 minutes** per IP — a ring on the button fills up as your cooldown expires
+- ghost posts stay on the board they were made on
 
 ---
 
-## Status bar
+## User Tracker
+
+Press **U** (desktop) or tap the **U** button (mobile) to track any poster by name or tripcode.
+
+- their posts get a yellow highlight in the feed
+- **▲ ▼** buttons in the status bar jump between their posts
+- shows post count and the hours they've been active today
+- entirely per-browser — tracking someone doesn't affect anyone else's screen
+
+---
+
+## Draw Pad
+
+A shared whiteboard everyone on the site draws on in real time.
+
+- tap **✏️** to open the pad
+- classic **MS Paint colour palette** — 28 colours, 2 rows
+- adjustable brush size
+- **🧽 eraser** — chunky and satisfying
+- tap outside or press **✕** to close
+- clears for everyone when someone hits clear
+- resets on server restart
+
+---
+
+## Status Bar
+
+Always visible at the bottom of the screen.
 
 | Element | Meaning |
 |---------|---------|
-| `lid` `lad` `lod` | Running word counts for the thread |
-| `d` `t` `q` `Q` | Dubs · Trips · Quads · Quints rolled so far |
-| `DEFCON` | /pol/ threat level (see below) |
-| `U:` | Tracked user — post count and active hours (last 2 days) |
-
----
-
-## SSM live indicator
-
-When a post links to a SeasideMARKs YouTube stream and he's currently live, a 🐟 **SSM IS LIVE** banner appears directly beneath that post. No API key required — it scrapes the watch page directly. Each link is only checked once.
-
-The detector handles his habit of changing his channel — it matches on `seasidemark`, `ssm`, `seaside mark` and the stable channel handle `@seasideMARK17`.
+| `lid` `lad` `lod` | Word counts — tallied per board, reset on thread switch |
+| `d` `t` `q` `Q` | Dubs · Trips · Quads · Quints — per board |
+| `DEFCON` | /pol/ threat level — hover or tap for description |
+| `LIVE ●` | Blinking red dot — you're connected |
+| `⌥ github` | Link to this repo (desktop only) |
 
 ---
 
@@ -103,16 +99,16 @@ The detector handles his habit of changing his channel — it matches on `seasid
 
 | | Level | Threads lit up | Meaning |
 |--|-------|---------------|---------|
-| 🕊 | **COMFY** | 0 | All quiet on the western front |
-| ☢ | **DEFCON 5** | 1–3 | Background noise |
-| ☢☢ | **DEFCON 4** | 4–7 | Mild chatter |
-| ☢☢☢ | **DEFCON 3** | 8–11 | Something worth watching |
-| ☢☢☢☢ | **DEFCON 2** | 12–19 | Significant event developing |
-| ☢☢☢☢☢ | **DEFCON 1** | 20+ | Absolute meltdown |
+| 🕊 | **COMFY** | 0 | all quiet. not a peep. |
+| ☢ | **DEFCON 5** | 1–3 | mild /pol/ chatter |
+| ☢☢ | **DEFCON 4** | 4–7 | something's brewing |
+| ☢☢☢ | **DEFCON 3** | 8–11 | worth keeping an eye on |
+| ☢☢☢☢ | **DEFCON 2** | 12–19 | significant event developing |
+| ☢☢☢☢☢ | **DEFCON 1** | 20+ | IT'S HAPPENING |
 
 </div>
 
-Scans the **5 most recently active** `/pol/` threads in full + catalog snippets for everything else.  
+Scans the **5 most recently active** `/pol/` threads in full + catalog snippets for everything else.
 Only posts made in the **last 30 minutes** are scored. Each thread counts once regardless of hit frequency.
 
 <details>
@@ -135,12 +131,28 @@ detonation · mushroom cloud · martial law · false flag
 
 ---
 
+## Running it yourself
+
+```bash
+pip install fastapi uvicorn requests
+python server.py
+```
+
+Or build the terminal version:
+
+```bash
+pip install requests rich
+python teletext.py
+```
+
+---
+
 ## Requirements
 
 - Python 3.10+
-- `requests`
-- `rich`
-- A terminal with Unicode and colour support
+- `fastapi` · `uvicorn` · `requests` (web)
+- `requests` · `rich` (terminal)
+- A terminal with Unicode and colour support (terminal version)
 
 ---
 
