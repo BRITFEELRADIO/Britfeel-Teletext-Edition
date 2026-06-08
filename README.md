@@ -38,7 +38,7 @@ No install. No account. Just the thread.
 - 📺 **YouTube titles** — links resolve to the video title so you know what people are posting
 - 🐟 **SSM live alert** — a blinking banner appears when someone posts a SeasideMARK17 stream link and he's live
 - 🆕 **Auto thread switching** — detects a new thread within 60 seconds and streams straight into it with a divider
-- 🍀 **Multi-board** — switch between britfeel `/r9k/`, brit/pol/ `/pol/`, and /brit/ `/int/` — each with their own counters
+- 🍀 **Multi-board** — switch between britfeel `/r9k/`, brit/pol/ `/pol/`, and /brit/ `/int/`
 
 ---
 
