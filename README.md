@@ -61,7 +61,6 @@ Press **U** (desktop) or tap the **U** button (mobile) to track any poster by na
 - their posts get a yellow highlight in the feed
 - **▲ ▼** buttons in the status bar jump between their posts
 - shows post count and the hours they've been active today
-- entirely per-browser — tracking someone doesn't affect anyone else's screen
 
 ---
 
