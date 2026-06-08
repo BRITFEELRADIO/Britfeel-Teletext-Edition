@@ -49,7 +49,7 @@ Anyone can leave a ghost post — a cryptic blood-red message that appears in th
 - 👻 tap the ghost button to open the word picker
 - choose up to **4 words** from a curated list of 71
 - your message appears in the feed in chronological order, styled in dripping red
-- **one post per 10 minutes** per IP — a ring on the button fills up as your cooldown expires
+- **one post per 10 minutes**  — a ring on the button fills up as your cooldown expires
 - ghost posts stay on the board they were made on
 
 ---
