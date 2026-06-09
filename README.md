@@ -39,7 +39,7 @@ No install. No account. Just the thread.
 - 🆕 **Auto thread switching** — detects a new thread within 60 seconds and streams straight into it with a divider
 - 🍀 **Multi-board** — switch between britfeel `/r9k/`, brit/pol/ `/pol/`, and /brit/ `/int/`
 - 👑 **Crown** — cycles through the most replied posts (needs 3 replies to qualify)
-- 🤬 **Seethe** - cycles through only the most seething posts 
+- 🤬 **Seether Detection** - flags and cycles through only the most seething posts.
 
 ---
 
